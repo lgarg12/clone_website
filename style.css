@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: aqua; */
+}
+/* global variale for using it again and again */
+:root{
+/* box-sizing: border-box; */
+    --primary-text-color: #183b56;
+    --seconday-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section: 20px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-text-color);
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+p{
+    font-family: 'Roboto' , sans-serif;
+    color: var(--seconday-text-color);
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+/* utility classes */
+.small-bold-text{
+    font-size: 1rem;
+    /* font weight try to understand */
+    font-weight: 700;
+}
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    /* border: 5px solid black; */
+    padding-inline:var(--padding-inline-section)
+}
+.banner-text{
+    color: white;
+    padding: 15px 30px;
+    /* border: 5px solid black; */
+    text-align: center;
+}
+.flex{
+    display: flex;
+    /* border: 1px solid black; */
+    align-items: center;
+}
+.top-banner{
+    /* background-image: url('./asset 30.jpeg'); */
+    background-color: #4fb3d4;
+}
+.main-nav{
+    margin-top: 20px;
+    justify-content: space-between;
+    
+}
+.company-logo img{
+    width: 200px;
+    
+}
+.nav-links ul{
+    justify-content: end;
+    gap:40px
+}
